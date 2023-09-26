@@ -1,0 +1,123 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ali Mohamed, Cairo University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.8.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+O:\Embeded systems courses\IEEE_Workshop\COTS_FROM_IEEE\Projects\On_Demand_Traffic_Light\Source_Code\On_Demand_Source_Code.uvprojx
+Project File Date:  09/23/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+main.c(3): warning: In file included from...
+./BIT_MATH.h(52): warning: no newline at end of file [-Wnewline-eof]
+#endif /* BIT_MATH_H_ */
+                        ^
+main.c(6): warning: In file included from...
+./RCC_interface.h(165): warning: no newline at end of file [-Wnewline-eof]
+#endif /**< RCC_INTERFACE_H_ */
+                               ^
+main.c(7): warning: In file included from...
+./GPIO_interface.h(33): warning: // comments are not allowed in this language [-Wcomment]
+/** @} */ // End of GPIO_Values group
+          ^
+./GPIO_interface.h(152): warning: no newline at end of file [-Wnewline-eof]
+#endif /**< GPIO_INTERFACE_H_ */
+                                ^
+main.c(9): warning: In file included from...
+./EXTI_interface.h(58): warning: // comments are not allowed in this language [-Wcomment]
+/** @} */  // EXTI_Configurations
+           ^
+./EXTI_interface.h(154): warning: no newline at end of file [-Wnewline-eof]
+#endif /**< EXTI_INTERFACE_H_ */
+                                ^
+main.c(10): warning: In file included from...
+./STK_interface.h(10): warning: missing terminating '"' character [-Winvalid-pp-token]
+#include "STD_TYPES.h""
+                      ^
+./STK_interface.h(10): warning: extra tokens at end of #include directive [-Wextra-tokens]
+main.c(11): warning: In file included from...
+./AFIO_interface.h(61): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+    AFIO_REMAP_CUSTOM,   /**< Custom remap (user-defined) */ 
+                     ^~
+./AFIO_interface.h(64): warning: // comments are not allowed in this language [-Wcomment]
+/** @} */  // End of AFIO_Remap_Options group
+           ^
+main.c(15): warning: In file included from...
+./LED.h(63): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+    LED_PIN15, /**< Pin 15 */ 
+             ^
+./LED.h(171): warning: no newline at end of file [-Wnewline-eof]
+#endif /**< LED_H_ */
+                     ^
+main.c(16): warning: In file included from...
+./PushButton.h(73): warning: commas at the end of enumerator lists are a C99-specific feature [-Wc99-extensions]
+    PB_PIN15, /**< Pin 15 */ 
+            ^
+./PushButton.h(121): warning: no newline at end of file [-Wnewline-eof]
+#endif /**< PUSHBUTTON_H_ */
+                            ^
+main.c(76): warning: 'return' will never be executed [-Wunreachable-code-return]
+        return 0;
+               ^
+main.c(149): warning: no newline at end of file [-Wnewline-eof]
+}
+ ^
+16 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=6660 RO-data=268 RW-data=16 ZI-data=1640  
+FromELF: creating hex file...
+".\Objects\On_Demand_Source_Code.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103C8
+  ./RTE/_Target_1
+  C:/Users/Ali Mohamed/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/Ali Mohamed/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Source file:   Device/Source/system_stm32f10x.c
+      Include file:  RTE_Driver/Config/RTE_Device.h
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
